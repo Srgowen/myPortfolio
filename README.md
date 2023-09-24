@@ -39,4 +39,5 @@ Add your own background images and assets as needed.
 Host the website on your chosen web hosting platform or server.
 Credits
 The CSS reset styles are based on "reset.css" by Meyerweb.
-![websitePicturePortfolio](https://github.com/Srgowen/myPortfolio/assets/119532973/b3eecfc2-40fa-4e2c-b6a5-672606f9459e)
+![pictureForPortfolioWebsite](https://github.com/Srgowen/myPortfolio/assets/119532973/1544601a-e289-4157-b8b7-d6ddc2bc588d)
+
