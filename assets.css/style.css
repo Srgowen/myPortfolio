@@ -1,3 +1,5 @@
+
+/* Apply font family to the entire document */
 body {
     font-family: Arial, sans-serif;
     background-color: #4499bb;
@@ -7,6 +9,7 @@ body {
     background-position: center; 
 }
 
+/* Style the header section */
 header {
     background-color: #0d103b;
     color: #fff;
@@ -14,12 +17,13 @@ header {
     padding: 40px;
 }
 
+/* Style the navigation menu */
 nav ul {
     list-style: none;
     text-align: center;
-    
 }
 
+/* Style navigation menu items */
 nav ul li {
     display: inline;
     margin-right: 20px;
@@ -28,9 +32,9 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #d6290b;
-    
 }
 
+/* Style the footer */
 footer {
     position: fixed;
     bottom: 0;
@@ -42,6 +46,7 @@ footer {
     padding: 10px;
 }
 
+/* Style the video container */
 .video-container {
     display: flex;
     justify-content: center;
@@ -49,6 +54,7 @@ footer {
     padding: 0px;
 }
 
+/* Style embedded iframes within the video container */
 .video-container iframe {
     max-width: 100%; 
     height: auto;
@@ -57,14 +63,17 @@ footer {
     padding-bottom: 10px;
 }
 
+/* Hide elements with the 'hidden' class */
 .hidden {
     display: none;
 }
 
+/* Style active section headers */
 .section-header.active {
     color: rgb(192, 13, 13);
 }
 
+/* Style button sections */
 .button-section {
     border: 2px solid #333; 
     padding: 15px 20px; 
@@ -74,6 +83,7 @@ footer {
     z-index: 2;
 }
 
+/* Style buttons within button sections */
 .button-section button {
     cursor: pointer;
     color: white;
@@ -84,65 +94,84 @@ footer {
     align-items: center;
 }
 
+/* Style button sections on hover and when active */
 .button-section:hover,
 .button-section.active {
     background-color: #7e5454; 
     color: #fff; 
 }
 
+/* Style section headers on hover */
 .button-section:hover h2.section-header {
     color: #FF0000; 
 }
 
+/* Create a flex container with centered content */
 .flexset {
     display: flex;
     justify-content: center;
 }
 
+/* Style section headers */
 .section-header {
     font-size: 40px; 
 }
 
+/* Style the navigation section */
 nav {
     margin-bottom: 50px;
 }
+
+/* Style the 'about-content' section */
 #about-content {
     font-size: 16px; 
     line-height: 1.5; 
     color: #faf6f6;
 }
 
+/* Style the 'contact-content' section */
 #contact-content {
     font-size: 16px; 
     line-height: 1.5; 
     color: #faf6f6;
 }
 
+/* Style the 'portfolio' section */
 #portfolio {
     color: #fff;
 }
+
+/* Style the 'about' section */
 #about {
     color: #fff;
 }
+
+/* Style the 'contact' section */
 #contact {
     color: #fff;
 }
+
+/* Style the header section */
 .header {
     text-align: center;
 }
+
+/* Style the portrait section */
 .portrait {
     display: flex;
     align-items: left;
 }
 
+/* Style the portrait image */
 .portrait img {
     width: 150px; 
     height: 150px; 
-   /* border-radius: 70%; could make it a circular pic, decided square looks better*/
+    /* border-radius: 70%; could make it a circular pic, decided square looks better*/
     border: 2px solid #fff; 
     margin-right: 20px; 
 }
 
+/* Style the text in the portrait section */
 .portrait-pic {
     text-align: right;
 }
