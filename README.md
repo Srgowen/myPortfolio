@@ -13,31 +13,27 @@ Interactive Sections: To make the site more engaging, I've implemented a custom 
 
 Responsive Design: The website is built to adapt seamlessly to various devices and screen sizes, ensuring a consistent and user-friendly display.
 
-CSS Styling
-I've paid careful attention to the CSS styling to create a visually appealing and cohesive look and feel for the website. Some key style highlights include:
 
-Font Choices: For readability, I've selected the "Arial" and "sans-serif" font families for the text content.
+I've meticulously crafted the CSS styling to craft an engaging and coherent visual identity for the website. Here are some noteworthy style elements:
 
-Background Aesthetics: A captivating background image and color scheme have been carefully chosen to elevate the site's visual appeal.
+Thoughtful Font Selection: To prioritize legibility and user experience, I've deliberately opted for the "Arial" and "sans-serif" font families for all textual content.
 
-Header Distinction: The header section stands out with a unique background color, ensuring that the text is easy to read against the backdrop.
+Aesthetic Background Choices: I've taken great care in selecting a captivating background image and a harmonious color palette. These choices are intended to enhance the website's overall visual allure.
 
-Navigation Menu: The navigation menu is designed with horizontal links and a distinct color choice for better visibility.
+Distinguished Header: The header section is deliberately designed to command attention. It features a distinctive background color, ensuring that text remains easily readable even against this backdrop.
 
-Styled Button Sections: Sections like "About," "Portfolio," and "Contact" are styled as button sections with a subtle hover effect, enhancing the interactive experience.
+User-Friendly Navigation: The navigation menu is thoughtfully designed with horizontally arranged links. The choice of a distinct color scheme enhances visibility, making navigation a seamless experience.
+
+Enhanced Button Sections: Sections such as "About," "Portfolio," and "Contact" have been artfully styled as button sections. These sections come to life with a subtle hover effect, contributing to a more engaging and interactive user experience.
+
+
 
 JavaScript Function
 To bring interactivity to the site, I've included a custom JavaScript function named toggleVisibility. This function allows users to expand or collapse section content by simply clicking on the respective section headers.
 
 Usage
-If you'd like to adapt this code for your own portfolio website, follow these steps:
-
-Clone this repository to your local machine.
-Customize the HTML content within the sections to reflect your own skills and accomplishments.
-Modify the CSS styles to align with your preferred design.
-Add your own background images and assets as needed.
-Host the website on your chosen web hosting platform or server.
+Feel free to copy this code and use it as you see fit, however, please do not use my personal picture.
 Credits
-The CSS reset styles are based on "reset.css" by Meyerweb.
+The CSS reset styles are "reset.css" copied from [Meyerweb.](https://meyerweb.com/eric/tools/css/reset/)
 ![pictureForPortfolioWebsite](https://github.com/Srgowen/myPortfolio/assets/119532973/1544601a-e289-4157-b8b7-d6ddc2bc588d)
 
