@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4499bb;
+    background-image: url(https://th.bing.com/th/id/R.4ad0efb48f702760226e4c8c6530e111?rik=niDkzQcgoE34Cg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fMEmBzn9.jpg&ehk=GMfgwNWuPwsTjAl3B4Av6VmPKFEw0PAUClH2UpSF%2fCA%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+header {
+    background-color: #0d103b;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d6290b;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 0px;
+}
+
+.video-container iframe {
+    max-width: 100%; 
+    height: auto;
+    max-height: 80%; 
+    height: 300px;
+    padding-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.section-header.active {
+    color: rgb(192, 13, 13);
+}
+
+.button-section {
+    border: 2px solid #333; 
+    padding: 15px 20px; 
+    text-align: center; 
+    background-color: rgba(99, 93, 93, 0.5); 
+    cursor: pointer; 
+    z-index: 2;
+}
+
+.button-section button {
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.button-section:hover,
+.button-section.active {
+    background-color: #7e5454; 
+    color: #fff; 
+}
+
+.button-section:hover h2.section-header {
+    color: #FF0000; 
+}
+
+.flexset {
+    display: flex;
+    justify-content: center;
+}
+
+.section-header {
+    font-size: 40px; 
+}
+
+nav {
+    margin-bottom: 50px;
+}
+#about-content {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #faf6f6;
+}
+
+#contact-content {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #faf6f6;
+}
+
+#portfolio {
+    color: #fff;
+}
+#about {
+    color: #fff;
+}
+#contact {
+    color: #fff;
+}
+.header {
+    text-align: center;
+}
+.portrait {
+    display: flex;
+    align-items: left;
+}
+
+.portrait img {
+    width: 150px; 
+    height: 150px; 
+   /* border-radius: 70%; could make it a circular pic, decided square looks better*/
+    border: 2px solid #fff; 
+    margin-right: 20px; 
+}
+
+.portrait-pic {
+    text-align: right;
+}
+
+.portrait h1 {
+    margin: 0;
+    font-size: 24px; 
+}
+
+.portrait p {
+    margin: 0;
+    font-size: 16px; 
+}
